@@ -6,7 +6,7 @@ from the Kvasir-SEG dataset. We compare two approaches:
 1. Direct bounding-box regression (e.g. CNN or ResNet, 4 output values).
 2. Weakly supervised segmentation with a segmentation model (e.g. U-Net) trained on box-based pseudo masks, from which we recover bounding boxes.
 
-The project was carried out as part of the "Deep Learning in Medical Imaging" course.
+The project is carried out as part of the "Deep Learning in Medical Imaging" course.
 
 ## Dataset
 
