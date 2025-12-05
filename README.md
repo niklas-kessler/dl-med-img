@@ -3,7 +3,7 @@
 This repository contains a small study on polyp localization in colonoscopy images
 from the Kvasir-SEG dataset. We compare two approaches:
 
-1. Faster-RCNN / SSD (finetuned)
+1. Faster-RCNN / SSD (finetuned) + Mask R-CNN
 2. YOLO (just inference?)
 
 The project is carried out as part of the "Deep Learning in Medical Imaging" course.
@@ -29,7 +29,7 @@ data/
 
 ## Tasks & Methods
 
-**Faster RCNN / SSD**
+**Faster RCNN / SSD + Mask R-CNN**
 details to follow
 
 **YOLO-based**
