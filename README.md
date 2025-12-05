@@ -3,9 +3,8 @@
 This repository contains a small study on polyp localization in colonoscopy images
 from the Kvasir-SEG dataset. We compare two approaches:
 
-1. Direct bounding-box regression
-2. Weakly supervised segmentation
-3. YOLO based model
+1. Faster-RCNN / SSD (finetuned)
+2. YOLO (just inference?)
 
 The project is carried out as part of the "Deep Learning in Medical Imaging" course.
 
@@ -30,14 +29,8 @@ data/
 
 ## Tasks & Methods
 
-**Direct bounding-box regression**
-- *Limited to 1 polyp per image!*
-- Simple CNN or ResNet backbone predicting 4 output values (x_min, x_max, y_min, y_max)
-
-**Weakly supervised segmentation**
-- Segmentation model (e.g. U-Net)
-- Boundary boxes serve as masks, making this a weakly-supervised setting with inexact labels. 
-- Predictions can optionally be converted back to boundary boxes.
+**Faster RCNN / SSD**
+details to follow
 
 **YOLO-based**
 - Depending on time capacity:
