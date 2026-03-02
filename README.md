@@ -1,4 +1,4 @@
-#Polyp Detection - Final Project (Deep Learning in Medical Imaging)
+# Polyp Detection - Final Project (Deep Learning in Medical Imaging)
 *Marco La Cagnina, Rime El Bahi, Niklas Kessler*
 
 This repository contains a small study on polyp localization in colonoscopy images
